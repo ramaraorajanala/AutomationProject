@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(plugin = { "pretty",
-        "json:target/cucumber.json"}, features = "src/test/resources/features/test.feature",
+        "json:target/cucumber.json"}, features = "src/test/resources/features/BrowserNavigation.feature",
          glue = "com.dwp.Automation.utils.StepDefs", tags ="@test")
 
 

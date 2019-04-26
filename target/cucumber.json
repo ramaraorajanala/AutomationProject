@@ -3,24 +3,24 @@
     "line": 1,
     "elements": [
       {
-        "line": 16,
-        "name": "Test to check different websites",
+        "line": 4,
+        "name": "Ability for the user to navigate to JobCentreQA",
         "description": "",
-        "id": "test-feature;test-to-check-different-websites;;2",
+        "id": "ability-to-navigate-to-different-approved-websites;ability-for-the-user-to-navigate-to-jobcentreqa",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5437329087,
+              "duration": 6714935794,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I navigate to \"https://www.google.com/\"",
+            "line": 5,
+            "name": "I navigate to \"GoogleQA\"",
             "match": {
               "arguments": [
                 {
-                  "val": "https://www.google.com/",
+                  "val": "GoogleQA",
                   "offset": 15
                 }
               ],
@@ -30,20 +30,20 @@
           },
           {
             "result": {
-              "duration": 139865796,
+              "duration": 192130039,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I enter xpath \"HelloWorld\" into \"/html/body/div[1]/div[3]/form/div[2]/div/div[1]/div/div[1]/input\"",
+            "line": 6,
+            "name": "I enter xpath \"Gmail\" into \"googleField\"",
             "match": {
               "arguments": [
                 {
-                  "val": "HelloWorld",
+                  "val": "Gmail",
                   "offset": 15
                 },
                 {
-                  "val": "/html/body/div[1]/div[3]/form/div[2]/div/div[1]/div/div[1]/input",
-                  "offset": 33
+                  "val": "googleField",
+                  "offset": 28
                 }
               ],
               "location": "CommonStepDefs.iEnterIntoSearchField(String,String)"
@@ -52,15 +52,15 @@
           },
           {
             "result": {
-              "duration": 11872769,
+              "duration": 1130750567,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I click on \"/html/body/div[1]/div[3]/form/div[2]/div/div[3]/center/input[1]\"",
+            "line": 7,
+            "name": "I click on \"googleClickButton\"",
             "match": {
               "arguments": [
                 {
-                  "val": "/html/body/div[1]/div[3]/form/div[2]/div/div[3]/center/input[1]",
+                  "val": "googleClickButton",
                   "offset": 12
                 }
               ],
@@ -71,90 +71,20 @@
         ],
         "tags": [
           {
-            "line": 6,
+            "line": 3,
             "name": "@test"
-          }
-        ]
-      },
-      {
-        "line": 17,
-        "name": "Test to check different websites",
-        "description": "",
-        "id": "test-feature;test-to-check-different-websites;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4150542953,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I navigate to \"https://www.google.com/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://www.google.com/",
-                  "offset": 15
-                }
-              ],
-              "location": "CommonStepDefs.goTogoogle(String)"
-            },
-            "keyword": "Given "
           },
           {
-            "result": {
-              "duration": 138809092,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I enter xpath \"HelloWorld\" into \"/html/body/div[1]/div[3]/form/div[2]/div/div[1]/div/div[1]/input\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "HelloWorld",
-                  "offset": 15
-                },
-                {
-                  "val": "/html/body/div[1]/div[3]/form/div[2]/div/div[1]/div/div[1]/input",
-                  "offset": 33
-                }
-              ],
-              "location": "CommonStepDefs.iEnterIntoSearchField(String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 22022727,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click on \"/html/body/div[1]/div[3]/form/div[2]/div/div[3]/center/input[1]\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/html/body/div[1]/div[3]/form/div[2]/div/div[3]/center/input[1]",
-                  "offset": 12
-                }
-              ],
-              "location": "CommonStepDefs.iClickOnSearchButton(String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@test"
+            "line": 3,
+            "name": "@job"
           }
         ]
       }
     ],
-    "name": "test feature",
+    "name": "Ability to navigate to different approved websites",
     "description": "",
-    "id": "test-feature",
+    "id": "ability-to-navigate-to-different-approved-websites",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/test.feature"
+    "uri": "src/test/resources/features/BrowserNavigation.feature"
   }
 ]
